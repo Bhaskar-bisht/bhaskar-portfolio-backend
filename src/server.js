@@ -34,7 +34,7 @@ app.set("trust proxy", true);
 
 // CORS configuration
 const corsOptions = {
-    origin: [process.env.FRONTEND_URL, process.env.ADMIN_PANEL_URL],
+    origin: [process.env.FRONTEND_URL, process.env.ADMIN_PANEL_URL, process.env.ADMIN_PANEL_URL_2],
     credentials: true,
     optionsSuccessStatus: 200,
 };
